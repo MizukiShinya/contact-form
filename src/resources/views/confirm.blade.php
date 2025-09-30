@@ -4,7 +4,6 @@
 @endsection
 
 @section('content')
-        <?php print_r($contact) ?>
         <div class="confirm__content">
             <div class="confirm__heading">
                 <h2>お問い合わせ内容確認</h2>
@@ -35,8 +34,8 @@
                         </tr>
                     </table>
                 </div>
-                <div class="form__botton">
-                    <button class="form__botton-submit" type="submit">送信</button>
+                <div class="form__button">
+                    <button class="form__button-submit" type="submit">送信</button>
                 </div>
             </form>
         </div>
